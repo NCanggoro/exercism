@@ -1,0 +1,12 @@
+rust/rust-api/target
+rust/rust-api/Cargo.lock
+rust/rust-api/.env
+
+# simple-auth
+rust/simple-auth/target
+rust/simple-auth/Cargo.lock
+rust/simple-auth/.env
+
+# Snake Game
+rust/snake_game/target
+rust/snake_game/Cargo.lock
