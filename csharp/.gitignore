@@ -1,0 +1,9 @@
+# hamming
+hamming/bin/
+hamming/obj/
+# hello-world
+hello-world/obj/
+hello-world/bin/
+# reverse-string
+reverse-string/obj/
+reverse-string/bin/
