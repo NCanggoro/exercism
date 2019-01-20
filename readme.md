@@ -1,3 +1,1 @@
-# WHAT DO YOU CALL A RED ORANGE ?
-
-# APPLE
+> For Warmup
