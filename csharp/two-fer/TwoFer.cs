@@ -5,8 +5,8 @@
       public static string Name(string input = null)
       {
          if(input == null)
-             return string.Format("One for you, one for me.");
+             return "One for you, one for me.";
 
-         return string.Format("One for {0}, one for me.", input);
+         return $"One for {input}, one for me.";
       }
   }
