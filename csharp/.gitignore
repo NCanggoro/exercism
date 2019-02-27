@@ -13,3 +13,7 @@ reverse-string/bin/
 # two-fer
 two-fer/obj/
 two-fer/bin/
+
+# pangram
+pangram/obj/
+pangram/bin/
