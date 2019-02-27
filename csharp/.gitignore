@@ -17,3 +17,11 @@ two-fer/bin/
 # pangram
 pangram/obj/
 pangram/bin/
+
+# acronym
+acronym/obj/
+acronym/bin/
+
+# isogram
+isogram/obj/
+isogram/bin/
