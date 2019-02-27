@@ -4,6 +4,9 @@
   {
       public static string Name(string input = null)
       {
-          throw new NotImplementedException("You need to implement this function.");
+         if(input == null)
+             return string.Format("One for you, one for me.");
+
+         return string.Format("One for {0}, one for me.", input);
       }
   }

@@ -1,9 +1,15 @@
-# hamming
-hamming/bin/
-hamming/obj/
 # hello-world
 hello-world/obj/
 hello-world/bin/
+
+# hamming
+hamming/bin/
+hamming/obj/
+
 # reverse-string
 reverse-string/obj/
 reverse-string/bin/
+
+# two-fer
+two-fer/obj/
+two-fer/bin/
