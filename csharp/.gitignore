@@ -25,3 +25,9 @@ acronym/bin/
 # isogram
 isogram/obj/
 isogram/bin/
+
+# simple-calculator
+Simple-Calculator/CalculatorEngine.Test/obj/
+Simple-Calculator/CalculatorEngine.Test/bin/
+Simple-Calculator/simple/SimpleCalc/obj/
+Simple-Calculator/simple/SimpleCalc/bin/
