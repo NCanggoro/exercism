@@ -9,7 +9,7 @@ namespace SimpleCalculatorEnginte.Test
     {
         private readonly ConvertInput _convertInput = new ConvertInput();
 
-        [TestCase]
+        [Test]
         public void ConvertValidStringToDouble()
         {
             string inputNumber = "5";

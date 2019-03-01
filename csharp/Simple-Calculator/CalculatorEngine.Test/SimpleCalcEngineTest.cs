@@ -8,7 +8,7 @@ namespace SimpleCalculatorEngine.Test
     {
         private readonly CalculateNumber _simpleCalc = new CalculateNumber();
 
-        [TestCase]
+        [Test]
         public void AddsTwoNumbersAndReturnValidResultForNonSymbolOperation()
         {
             double number1 = 1;
@@ -17,7 +17,7 @@ namespace SimpleCalculatorEngine.Test
             Assert.AreEqual(3.4, result);
         }
 
-        [TestCase]
+        [Test]
         public void AddsTwoNumbersAndReturnValidResultForSymbolOperation()
         {
             double number1 = 1.3;
@@ -25,7 +25,7 @@ namespace SimpleCalculatorEngine.Test
             double result = _simpleCalc.Calculate("+", number1, number2);
             Assert.AreEqual(3.7, result);
         }
-        [TestCase]
+        [Test]
         public void SubstractTwoNumbersAndReturnValidResultForNonSymbolOperation()
         {
             double number1 = 3.5;
@@ -34,7 +34,7 @@ namespace SimpleCalculatorEngine.Test
             Assert.AreEqual(1.1, result);
         }
 
-        [TestCase]
+        [Test]
         public void SubstractTwoNumbersAndReturnValidResultForSymbolOperation()
         {
             double number1 = 1;
@@ -42,7 +42,7 @@ namespace SimpleCalculatorEngine.Test
             double result = _simpleCalc.Calculate("-", number1, number2);
             Assert.AreEqual(-1.5, result);
         }
-        [TestCase]
+        [Test]
         public void DivideTwoNumbersAndReturnValidResultForNonSymbolOperation()
         {
             double number1 = 10;
@@ -51,7 +51,7 @@ namespace SimpleCalculatorEngine.Test
             Assert.AreEqual(5, result);
         }
 
-        [TestCase]
+        [Test]
         public void DivideTwoNumbersAndReturnValidResultForSymbolOperation()
         {
             double number1 = 5;
@@ -59,7 +59,7 @@ namespace SimpleCalculatorEngine.Test
             double result = _simpleCalc.Calculate("/", number1, number2);
             Assert.AreEqual(2.5, result);
         }
-        [TestCase]
+        [Test]
         public void MultiplyTwoNumbersAndReturnValidResultForNonSymbolOperation()
         {
             double number1 = 10;
@@ -68,7 +68,7 @@ namespace SimpleCalculatorEngine.Test
             Assert.AreEqual(20, result);
         }
 
-        [TestCase]
+        [Test]
         public void MultiplyTwoNumbersAndReturnValidResultForSymbolOperation()
         {
             double number1 = 5.5;
